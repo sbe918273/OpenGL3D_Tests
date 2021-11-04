@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestContainers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestStencil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\CubeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\LightData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\StencilData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestBlend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Data\BlendData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestCubeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestUniformBuffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestInstancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestAntiAliasing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestBlinn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestShadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestPointShadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestNormal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestParallax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestHDR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestBloom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestDeferred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestOcclusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestPBR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vendor\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\temp\Workshop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tests\TestIBL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\VertexCore.glsl" />
+    <None Include="res\shaders\FragmentLight.glsl" />
+    <None Include="res\shaders\FragmentCore.glsl" />
+    <None Include="res\shaders\FragmentGouraud.glsl" />
+    <None Include="res\shaders\VertexGouraud.glsl" />
+    <None Include="res\shaders\FragmentDepth.glsl" />
+    <None Include="res\shaders\Stencil\VertexCore.glsl" />
+    <None Include="res\shaders\Stencil\FragmentCore.glsl" />
+    <None Include="res\shaders\Stencil\FragmentSolid.glsl" />
+    <None Include="res\shaders\Circle\VertexCore.glsl" />
+    <None Include="res\shaders\Circle\FragmentCore.glsl" />
+    <None Include="res\shaders\Circle\FragmentLight.glsl" />
+    <None Include="res\shaders\Frame\VertexQuad.glsl" />
+    <None Include="res\shaders\Frame\FragmentQuad.glsl" />
+    <None Include="res\shaders\CubeMap\FragmentCubeMap.glsl" />
+    <None Include="res\shaders\CubeMap\VertexCubeMap.glsl" />
+    <None Include="res\shaders\CubeMap\FragmentCore.glsl" />
+    <None Include="res\shaders\UniformBuffers\VertexCore.glsl" />
+    <None Include="res\shaders\UniformBuffers\FragmentCore.glsl" />
+    <None Include="res\shaders\Geometry\VertexCore.glsl" />
+    <None Include="res\shaders\Geometry\GeometryCore.glsl" />
+    <None Include="res\shaders\Geometry\FragmentCore.glsl" />
+    <None Include="res\shaders\Model\GeometryExplode.glsl" />
+    <None Include="res\shaders\Model\GeometryNormal.glsl" />
+    <None Include="res\shaders\Model\VertexExplode.glsl" />
+    <None Include="res\shaders\Model\VertexNormal.glsl" />
+    <None Include="res\shaders\Model\FragmentSolid.glsl" />
+    <None Include="res\shaders\Blinn\VertexCore.glsl" />
+    <None Include="res\shaders\Blinn\FragmentCore.glsl" />
+    <None Include="res\shaders\Shadow\VertexCore.glsl" />
+    <None Include="res\shaders\Shadow\FragmentCore.glsl" />
+    <None Include="res\shaders\Shadow\FragmentDepth.glsl" />
+    <None Include="res\shaders\Shadow\VertexDepth.glsl" />
+    <None Include="res\shaders\PointShadow\FragmentDepth.glsl" />
+    <None Include="res\shaders\PointShadow\GeometryDepth.glsl" />
+    <None Include="res\shaders\PointShadow\VertexDepth.glsl" />
+    <None Include="res\shaders\PointShadow\VertexCore.glsl" />
+    <None Include="res\shaders\PointShadow\FragmentCore.glsl" />
+    <None Include="res\shaders\Normal\FragmentCore.glsl" />
+    <None Include="res\shaders\Normal\VertexCore.glsl" />
+    <None Include="res\shaders\Parallax\FragmentCore.glsl" />
+    <None Include="res\shaders\HDR\FragmentCore.glsl" />
+    <None Include="res\shaders\Bloom\VertexCore.glsl" />
+    <None Include="res\shaders\Bloom\FragmentCore.glsl" />
+    <None Include="res\shaders\Bloom\FragmentBlur.glsl" />
+    <None Include="res\shaders\Deferred\FragmentDeferred.glsl" />
+    <None Include="res\shaders\Deferred\FragmentQuad.glsl" />
+    <None Include="res\shaders\Deferred\VertexLight.glsl" />
+    <None Include="res\shaders\Deferred\FragmentLight.glsl" />
+    <None Include="res\shaders\Occlusion\FragmentQuad.glsl" />
+    <None Include="res\shaders\Occlusion\VertexCore.glsl" />
+    <None Include="res\shaders\Occlusion\FragmentOcclusion.glsl" />
+    <None Include="res\shaders\Occlusion\VertexOcclusion.glsl" />
+    <None Include="res\shaders\Occlusion\FragmentBlur.glsl" />
+    <None Include="res\shaders\PBR\VertexCore.glsl" />
+    <None Include="res\shaders\PBR\FragmentCore.glsl" />
+    <None Include="res\shaders\PBR\VertexLight.glsl" />
+    <None Include="res\shaders\PBR\FragmentLight.glsl" />
+    <None Include="res\shaders\IBL\VertexEquirec.glsl" />
+    <None Include="res\shaders\IBL\FragmentEquirec.glsl" />
+    <None Include="res\textures\bridge.hdr" />
+    <None Include="res\shaders\IBL\VertexCubeMap.glsl" />
+    <None Include="res\shaders\IBL\FragmentCubeMap.glsl" />
+    <None Include="res\shaders\IBL\FragmentCore.glsl" />
+    <None Include="res\textures\Milkyway_small.hdr" />
+    <None Include="res\shaders\IBL\FragmentPrefilter.glsl" />
+    <None Include="res\shaders\IBL\FragmentDiff.glsl" />
+    <None Include="res\shaders\IBL\FragmentBDRF.glsl" />
+    <None Include="res\shaders\IBL\VertexQuad.glsl" />
+    <None Include="res\shaders\IBL\FragmentShowQuad.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\textures\container.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\penguins.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\container2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\specular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\matrix.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\white.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\rose_window.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\cobble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bedrock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\tile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\grass_ground.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\chequered.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\skybox\skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\skybox\skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\skybox\skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\skybox\skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\skybox\skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\skybox\skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\mountain_skybox\back.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\mountain_skybox\bottom.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\mountain_skybox\front.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\mountain_skybox\left.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\mountain_skybox\right.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\mountain_skybox\top.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\wood.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\brickwall_normal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\brickwall.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\Solid_grey.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bricks2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bricks2_disp.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bricks2_normal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\toy_box_disp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\toy_box_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\rusty_ball\rustediron2_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\rusty_ball\rustediron2_metallic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\rusty_ball\rustediron2_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\rusty_ball\rustediron2_roughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\titanium_ball\Titanium-Scuffed_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\titanium_ball\Titanium-Scuffed_metallic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\titanium_ball\Titanium-Scuffed_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\titanium_ball\Titanium-Scuffed_roughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bamboo_ball\bamboo-wood-semigloss-albedo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bamboo_ball\bamboo-wood-semigloss-ao.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bamboo_ball\bamboo-wood-semigloss-metal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bamboo_ball\bamboo-wood-semigloss-normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\textures\bamboo_ball\bamboo-wood-semigloss-roughness.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\CubeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\LightData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\StencilData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Data\BlendData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tests\Tests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vendor\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
